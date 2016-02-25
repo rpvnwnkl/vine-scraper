@@ -8,7 +8,12 @@ Usage
 ```
 $ python app.py <user_id>
 ```
-
+alternatively,
+'''
+$ python app.py <user_id> <bool>
+'''
+Using <code>True</code> as your <code>bool</code> value will write each post's meta deta to a text file of the same name as the video file.
+Default value (if left empty) is <code>False</code>.
 
 License
 -------
